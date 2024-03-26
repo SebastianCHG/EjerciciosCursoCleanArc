@@ -1,0 +1,7 @@
+VERSION DE PYTHON
+py --version
+
+EJECUTAR UN ARCHIVO:
+pararse en la carpeta del archivo y 
+py main.
+
