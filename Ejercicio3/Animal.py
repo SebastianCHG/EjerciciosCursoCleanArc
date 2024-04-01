@@ -23,9 +23,10 @@ class Carnivoro(Animal):
 
     def __init__(self, nombre):
         super().__init__(nombre)
+        #self.nombre = nombre
 
-    def respirar(self):
-        return super().respirar()
+    #def respirar(self):
+    #    return super().respirar()
     
     def comer(self):
         return "está comiendo carne"
@@ -53,8 +54,8 @@ class Herbivoro(Animal):
     def pastar(self):
         pass
     
-    def dormir(self):
-        return super().dormir()
+    #def dormir(self):
+    #    return super().dormir()
     
 class Perro(Carnivoro):
 

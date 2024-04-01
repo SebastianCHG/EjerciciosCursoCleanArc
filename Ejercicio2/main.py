@@ -6,7 +6,17 @@ miFigura = Figura()
 miRectangulo = Rectangulo(6,4)
 miCuadrado = Cuadrado(5)
 
-print(miRectangulo.area())
-print(miRectangulo.perimetro())
-print(miCuadrado.area())
-print(miCuadrado.perimetro())
+vector = []
+
+vector.append(miRectangulo)
+vector.append(miCuadrado)
+vector.append("Nada")
+
+#print(miRectangulo.area())
+#print(miRectangulo.perimetro())
+#print(miCuadrado.area())
+#print(miCuadrado.perimetro())
+
+print(vector[0].area())
+print(vector[1].area())
+print(vector[2])
