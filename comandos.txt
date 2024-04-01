@@ -5,3 +5,6 @@ EJECUTAR UN ARCHIVO:
 pararse en la carpeta del archivo y 
 py main.
 
+INSTALAR LIBRERIAS:
+py -m pip install mysql-connector-python
+py -m pip install pymongo
